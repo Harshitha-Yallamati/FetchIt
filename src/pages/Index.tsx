@@ -6,6 +6,7 @@
 import { motion } from 'framer-motion';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 import { SearchBar } from '@/components/home/SearchBar';
+import { PromoBanner } from '@/components/home/PromoBanner';
 import { CategoryRow } from '@/components/home/CategoryRow';
 import { SectionHeader } from '@/components/home/SectionHeader';
 import { FoodCard } from '@/components/home/FoodCard';
@@ -44,6 +45,15 @@ const Index = () => {
           transition={{ delay: 0.1 }}
         >
           <SearchBar />
+        </motion.div>
+
+        {/* Promo Banner Carousel */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.15 }}
+        >
+          <PromoBanner />
         </motion.div>
 
         {/* Category Row */}
