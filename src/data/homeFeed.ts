@@ -1,0 +1,251 @@
+// ============================================
+// Home Feed Data - All sections
+// ============================================
+
+export const foodItems = [
+  {
+    id: 'f1',
+    name: 'Hyderabadi Biryani',
+    image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&q=80',
+    price: 249,
+    deliveryTime: '25-30 min',
+    discount: 40,
+  },
+  {
+    id: 'f2',
+    name: 'Margherita Pizza',
+    image: 'https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=400&q=80',
+    price: 299,
+    deliveryTime: '20-25 min',
+    discount: 20,
+  },
+  {
+    id: 'f3',
+    name: 'Classic Burger',
+    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80',
+    price: 179,
+    deliveryTime: '15-20 min',
+  },
+  {
+    id: 'f4',
+    name: 'South Indian Tiffin',
+    image: 'https://images.unsplash.com/photo-1630383249896-424e482df921?w=400&q=80',
+    price: 129,
+    deliveryTime: '10-15 min',
+    discount: 15,
+  },
+  {
+    id: 'f5',
+    name: 'Butter Chicken',
+    image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&q=80',
+    price: 329,
+    deliveryTime: '30-35 min',
+  },
+  {
+    id: 'f6',
+    name: 'Paneer Tikka',
+    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=80',
+    price: 219,
+    deliveryTime: '20-25 min',
+    discount: 25,
+  },
+];
+
+export const groceryItems = [
+  {
+    id: 'g1',
+    name: 'Basmati Rice',
+    image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80',
+    price: 299,
+    unit: '5 kg',
+    deliveryTime: '30-45 min',
+    discount: 10,
+  },
+  {
+    id: 'g2',
+    name: 'Fresh Milk',
+    image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80',
+    price: 68,
+    unit: '1 ltr',
+    deliveryTime: '15-20 min',
+  },
+  {
+    id: 'g3',
+    name: 'Mixed Vegetables',
+    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80',
+    price: 149,
+    unit: '1 kg',
+    deliveryTime: '20-30 min',
+    discount: 15,
+  },
+  {
+    id: 'g4',
+    name: 'Fresh Fruits',
+    image: 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=400&q=80',
+    price: 199,
+    unit: 'Assorted',
+    deliveryTime: '25-35 min',
+  },
+  {
+    id: 'g5',
+    name: 'Cooking Oil',
+    image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&q=80',
+    price: 189,
+    unit: '1 ltr',
+    deliveryTime: '30-40 min',
+  },
+  {
+    id: 'g6',
+    name: 'Snacks Pack',
+    image: 'https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=400&q=80',
+    price: 99,
+    unit: 'Combo',
+    deliveryTime: '20-25 min',
+    discount: 20,
+  },
+];
+
+export const parcelTypes = [
+  {
+    type: 'document' as const,
+    title: 'Documents',
+    description: 'Send important documents safely and quickly',
+  },
+  {
+    type: 'small' as const,
+    title: 'Small Parcels',
+    description: 'Packages up to 5kg, perfect for gifts',
+  },
+  {
+    type: 'large' as const,
+    title: 'Large Parcels',
+    description: 'Heavy items up to 25kg with special care',
+  },
+];
+
+export const medicineItems = [
+  {
+    id: 'm1',
+    name: 'Paracetamol',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80',
+    price: 35,
+    deliveryTime: '8-12 min',
+    requiresPrescription: false,
+  },
+  {
+    id: 'm2',
+    name: 'Cough Syrup',
+    image: 'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400&q=80',
+    price: 120,
+    deliveryTime: '10-15 min',
+    requiresPrescription: false,
+  },
+  {
+    id: 'm3',
+    name: 'First Aid Kit',
+    image: 'https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=400&q=80',
+    price: 499,
+    deliveryTime: '15-20 min',
+    requiresPrescription: false,
+  },
+  {
+    id: 'm4',
+    name: 'Vitamin C',
+    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400&q=80',
+    price: 299,
+    deliveryTime: '10-15 min',
+    requiresPrescription: false,
+  },
+  {
+    id: 'm5',
+    name: 'Antibiotics',
+    image: 'https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400&q=80',
+    price: 250,
+    deliveryTime: '12-18 min',
+    requiresPrescription: true,
+  },
+];
+
+export const bikeRentals = [
+  {
+    id: 'b1',
+    name: 'City E-Bike',
+    image: 'https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&q=80',
+    pricePerHour: 49,
+    pricePerDay: 299,
+    available: true,
+    distance: '0.3 km',
+    batteryLevel: 85,
+    rating: 4.8,
+  },
+  {
+    id: 'b2',
+    name: 'Sport Scooter',
+    image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=400&q=80',
+    pricePerHour: 79,
+    pricePerDay: 449,
+    available: true,
+    distance: '0.5 km',
+    batteryLevel: 92,
+    rating: 4.6,
+  },
+  {
+    id: 'b3',
+    name: 'Mountain Bike',
+    image: 'https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=400&q=80',
+    pricePerHour: 39,
+    pricePerDay: 199,
+    available: false,
+    distance: '0.8 km',
+    rating: 4.7,
+  },
+  {
+    id: 'b4',
+    name: 'Cruiser Bike',
+    image: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=400&q=80',
+    pricePerHour: 29,
+    pricePerDay: 149,
+    available: true,
+    distance: '1.2 km',
+    rating: 4.5,
+  },
+];
+
+export const tiffinServices = [
+  {
+    id: 't1',
+    name: 'Mom\'s Kitchen',
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=80',
+    mealTypes: ['Lunch', 'Dinner'],
+    pricePerMeal: 89,
+    subscriptions: ['Daily', 'Weekly', 'Monthly'],
+    rating: 4.9,
+  },
+  {
+    id: 't2',
+    name: 'Healthy Bites',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80',
+    mealTypes: ['Breakfast', 'Lunch'],
+    pricePerMeal: 129,
+    subscriptions: ['Weekly', 'Monthly'],
+    rating: 4.7,
+  },
+  {
+    id: 't3',
+    name: 'Desi Flavors',
+    image: 'https://images.unsplash.com/photo-1567337710282-00832b415979?w=400&q=80',
+    mealTypes: ['Lunch', 'Dinner'],
+    pricePerMeal: 99,
+    subscriptions: ['Daily', 'Weekly'],
+    rating: 4.8,
+  },
+  {
+    id: 't4',
+    name: 'Fresh & Fit',
+    image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&q=80',
+    mealTypes: ['Breakfast', 'Lunch', 'Dinner'],
+    pricePerMeal: 149,
+    subscriptions: ['Monthly'],
+    rating: 4.6,
+  },
+];
